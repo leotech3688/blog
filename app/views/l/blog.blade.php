@@ -1,6 +1,6 @@
 @extends('l.base')
 
-@section('title') Simple - Blog @parent @stop
+@section('title') vodka @parent @stop
 
 @section('beforeStyle')
     {{ style('bootstrap-3.0.3') }}
