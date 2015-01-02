@@ -30,7 +30,7 @@ $is_active = function ($name = '') use ($active) {
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                        [ {{ Auth::user()->email }} ] <b class="caret"></b>
+                        [ 欢迎您,{{ Auth::user()->email }} ] <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
                         <li><a href="{{ route('home') }}">回到博客</a></li>
