@@ -13,7 +13,7 @@
         <meta name="description" content="@yield('description')">{{-- 页面描述 --}}
         <meta name="keywords" content="@yield('keywords')" />    {{-- 页面关键词 --}}
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="http://123.56.101.160/favicon.ico">
+        <link rel="shortcut icon" href="../../../favicon.ico">
         <script>
             (function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)
         </script>
